@@ -1,0 +1,41 @@
+<div class="row">
+    <div class="col-md-6 mx-auto p-0">
+        <div class="card">
+            <div class="login-box">
+                <div class="login-snip"> <input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1" class="tab">Login</label>
+                    <div class="login-space">
+                        <div class="login">
+                            <form class="" (ngSubmit)="loginUser()" [formGroup]="loginForm">
+                            <div class="group">
+                                 <label for="user" class="label">Email</label>
+                                  <input id="email_login" type="text" class="input" formControlName="email" placeholder="Enter your email" 
+                                  [class.is-invalid]="!this.loginForm.controls.email.valid && this.loginForm.controls.email.touched">
+                                  <div class="invalid-feedback"  [hidden]="!this.loginForm.controls.email.errors?.email && this.loginForm.controls.email.touched" >
+                                    O valor digitado não é um email.
+                                  </div>
+                                  <div class="invalid-feedback" [hidden]="!this.loginForm.controls.email.errors?.required && this.loginForm.controls.email.touched" >
+                                    O campo não pode ser nulo.
+                                  </div>
+                                 </div>
+
+                            <div class="group">
+                                 <label for="pass" class="label">Password</label>
+                                  <input id="pass_login" type="password" class="input" data-type="password" formControlName="password" placeholder="Enter your password" 
+                                  [class.is-invalid]="!this.loginForm.controls.password.valid && this.loginForm.controls.password.touched" >
+                                  <div class="invalid-feedback" *ngIf="this.loginForm.controls.password.errors && this.loginForm.controls.password.touched" >
+                                    {{ this.loginForm.controls.password.errors?.required ? "O campo não pode ser nulo." : "O valor precisa ter no minimo 6 dígitos" }}
+                                  </div>
+                                 </div>
+
+                            <div class="group"> <input id="check" type="checkbox" class="check" checked> <label for="check"><span class="icon"></span> Keep me Signed in</label> </div>
+                            <div class="group"> <input type="submit" class="button" value="Sign In"> </div>
+                            <div class="hr"></div>
+                            <div class="foot"> <a href="#">Forgot Password?</a> </div>
+                        </form>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
