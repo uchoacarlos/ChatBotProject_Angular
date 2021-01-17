@@ -8,15 +8,16 @@ import { AppComponent } from './app.component';
 import { SecurityModule } from './security/security.module'
 import { SecurityService } from './security/security.service';
 import { NavbarComponent } from './core/navbar/navbar.component';
-import { ChatroomComponent } from './chatroom/chatroom.component';
 import { AuthGuard } from './guards/auth.guard';
 import { ChatModule } from './chat/chat.module';
+import { ChathomeComponent } from './chathome/chathome.component';
+
 
 @NgModule({
   declarations: [
     NavbarComponent,
     AppComponent,
-    ChatroomComponent
+    ChathomeComponent
   ],
   imports: [
     BrowserModule,

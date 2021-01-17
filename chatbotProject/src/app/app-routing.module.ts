@@ -1,4 +1,5 @@
-import { ChatroomComponent } from './chatroom/chatroom.component';
+  
+import { ChathomeComponent } from './chathome/chathome.component';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { Routes, RouterModule } from '@angular/router';
@@ -18,12 +19,13 @@ const routes: Routes = [
 
 
   { path: 'chat-dialog', component: ChatDialogComponent, canActivate: [AuthGuard] },
+  { path: 'chathome', component: ChathomeComponent, canActivate: [AuthGuard] },
 
   // -- Resolve o problema de 
   { path: '**', redirectTo: '/security/login', pathMatch: 'full'}
 
 
-  //{ path: 'login', component: LoginComponent, /*canActivate: [AuthGuard]*/ },
+  //{ path: 'login', component: LoginComponent, /*canActivate: [AuthGuard]*/ }
 
 
 

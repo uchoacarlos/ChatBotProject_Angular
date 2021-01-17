@@ -11,7 +11,7 @@
       <ul #scrollMe class="messages">
         <div *ngFor="let msg of resultados ">
           <li class="message appeared" [ngClass]="{'left':msg.remetente === 'boot',
-                        'right':msg.remetente === 'eu'     }">
+                        'right':msg.remetente === 'user'     }">
             <div class="avatar"></div>
             <div class="text_wrapper">
               <div class="text">
@@ -30,6 +30,6 @@
       <input type="text" class="form-control " (keyup.enter)="sendMessage()" [(ngModel)]="msg" />
     </div>
     <div class="col-sm-2">
-      <button class="btn btn-success sendbtn" (click)="sendMessage()"><i class="far fa-share-square"></i> Enviar</button>
+      <button class="btn btn-success sendbtn" (click)="sendMessage()"><i class="far fa-share-square"></i> Enviar </button>
     </div>
   </div>

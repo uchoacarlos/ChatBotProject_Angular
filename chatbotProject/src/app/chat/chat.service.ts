@@ -6,6 +6,9 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
 })
 export class ChatService {
 
+  //private baseURL: string = "https://dialogflow.googleapis.com/$discovery/rest?version=v2beta1";
+  //private token: string = 'AIzaSyBvV4W7FZMOlMiKT0dRw2ucBr6qsoKiK30';
+
   private baseURL: string = "https://api.dialogflow.com/v1/query?v=20150910";
   private token: string = 'e228c76aa6a54ce9b14a33b0980aacdf';
 

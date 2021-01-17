@@ -2,11 +2,11 @@ import { Component, OnInit } from '@angular/core';
 import { SecurityService } from '../security/security.service';
 
 @Component({
-  selector: 'app-chatroom',
-  templateUrl: './chatroom.component.html',
-  styleUrls: ['./chatroom.component.css']
+  selector: 'chathome',
+  templateUrl: './chathome.component.html',
+  styleUrls: ['./chathome.component.css']
 })
-export class ChatroomComponent implements OnInit {
+export class ChathomeComponent implements OnInit {
 
   constructor(private securityService: SecurityService) { }
 

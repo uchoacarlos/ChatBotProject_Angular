@@ -35,7 +35,7 @@ export class ChatDialogComponent implements OnInit {
   }
 
   sendMessage() {
-    this.resultados.push({ remetente: 'eu', mensagem: this.msg, data: new Date() })
+    this.resultados.push({ remetente: 'user', mensagem: this.msg, data: new Date() })
     this.chatService.talk(this.removerAcentos(this.msg))
       .subscribe((lista: any) => {
         lista.result.fulfillment.messages.forEach((element) => {

@@ -50,7 +50,7 @@ export class LoginComponent implements OnInit {
         this.securityService.userAuthenticated = true;
         this.securityService.mostrarMenuEmitter.emit(true);
 
-        this.router.navigateByUrl('/chatroom');
+        this.router.navigateByUrl('/chathome');
       },
       error => {
         console.log('erro ao logar');
