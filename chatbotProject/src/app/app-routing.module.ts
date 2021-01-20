@@ -13,7 +13,7 @@ import { ChatDialogComponent } from './chat/chat-dialog/chat-dialog.component';
 
 const routes: Routes = [
 
-  { path: '', component: AppComponent, canActivate: [AuthGuard] },
+  { path: '', redirectTo: 'chathome', pathMatch: 'full'},
 
   { path: 'security', loadChildren: () => import('./security/security.module').then(m => m.SecurityModule) },
 
@@ -22,7 +22,7 @@ const routes: Routes = [
   { path: 'chathome', component: ChathomeComponent, canActivate: [AuthGuard] },
 
   // -- Resolve o problema de 
-  { path: '**', redirectTo: '/security/login', pathMatch: 'full'}
+  { path: '**', redirectTo: 'chathome', pathMatch: 'full'}
 
 
   //{ path: 'login', component: LoginComponent, /*canActivate: [AuthGuard]*/ }
