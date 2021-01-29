@@ -13,7 +13,9 @@ import { ChatDialogComponent } from './chat/chat-dialog/chat-dialog.component';
 
 const routes: Routes = [
 
-  { path:"", redirectTo:"chathome", pathMatch:"full" },
+
+  { path: '', redirectTo: 'chathome', pathMatch: 'full'},
+
 
   { path: 'security', loadChildren: () => import('./security/security.module').then(m => m.SecurityModule) },
 

@@ -1,8 +1,15 @@
 body {
     margin: 0;
     color: #6a6f8c;
-    background: #c8c8c8;
-    font: 600 16px/18px 'Open Sans', sans-serif
+    background-color: #f7f4f4;
+    font: 600 16px/18px 'Open Sans', sans-serif;
+}
+
+.fundoLogin {
+    width:100%;
+    height:100%;
+    background: url(https://cdn.wallpapersafari.com/9/85/95LzVP.gif) no-repeat center;
+
 }
 
 .login-box {
@@ -11,7 +18,7 @@ body {
     max-width: 525px;
     min-height: 650px;
     position: relative;
-    background: url(https://images.unsplash.com/photo-1507208773393-40d9fc670acf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1268&q=80) no-repeat center;
+    background: url(https://cdn.wallpapersafari.com/9/85/95LzVP.gif) no-repeat center;
     box-shadow: 0 12px 15px 0 rgba(0, 0, 0, .24), 0 17px 50px 0 rgba(0, 0, 0, .19)
 }
 
@@ -20,7 +27,8 @@ body {
     height: 100%;
     position: absolute;
     padding: 90px 70px 50px 70px;
-    background: rgba(14, 15, 15, 0.9)
+    background: rgba(14, 15, 15, 0.9);
+    border-radius: 5%;
 }
 
 .login-snip .login,
@@ -194,7 +202,9 @@ a {
 
 .card {
     width: 500px;
-    left: 100px
+    padding: 10px 0 10px 0;
+    left: 100px;
+    background: url(https://cdn.wallpapersafari.com/9/85/95LzVP.gif) no-repeat center;
 }
 
 ::placeholder {

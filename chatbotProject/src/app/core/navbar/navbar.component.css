@@ -1,7 +1,9 @@
-
+.nav {
+    width: 100%;
+}
 .navbar .nav-link {
     padding-left: 15px;
-    color: #fff;
+    padding-top:25px;
     text-decoration: none;
 }
-
+ 
