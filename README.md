@@ -1,31 +1,33 @@
-# ChatBotProject_Angular
-Este projeto é sobre um SPA com um chat boot desenvolvido em Angular. Afim de aprender e desenvolver habilidades com o framework Angular, este desafio foi proposto pelo grupo de desenvolvedores "Programar.com.vc ".
+# ChatBot Project with Angular
 
-# ChatbotProject
+Este projeto consiste em um SPA (Single Page Application) com um chatbot desenvolvido em Angular. O desafio foi proposto pelo grupo de desenvolvedores "Programar.com.vc" como uma oportunidade de aprender e desenvolver habilidades utilizando o framework Angular.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.7.
+## Informações do Projeto
 
-## Development server
+O projeto foi gerado com o [Angular CLI](https://github.com/angular/angular-cli) na versão 10.1.7.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Servidor de Desenvolvimento
 
-## Code scaffolding
+Execute `ng serve` para iniciar o servidor de desenvolvimento. Navegue até `http://localhost:4200/`. O aplicativo será recarregado automaticamente se você fizer alguma alteração nos arquivos de origem.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Estrutura do Código
 
-## Build
+Utilize `ng generate component nome-do-componente` para gerar um novo componente. Você também pode utilizar `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## Construção do Projeto
 
-## Running unit tests
+Execute `ng build` para construir o projeto. Os artefatos da construção serão armazenados no diretório `dist/`. Use a flag `--prod` para uma construção de produção.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Execução de Testes Unitários
 
-## Running end-to-end tests
+Execute `ng test` para executar os testes unitários via [Karma](https://karma-runner.github.io).
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+## Execução de Testes End-to-End
 
-## Further help
+Execute `ng e2e` para executar os testes end-to-end via [Protractor](http://www.protractortest.org/).
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+## Ajuda Adicional
 
+Para obter mais ajuda com o Angular CLI, utilize `ng help` ou consulte o [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+Este projeto é uma excelente oportunidade para aprimorar suas habilidades com Angular. Sinta-se à vontade para explorar, contribuir e buscar mais informações conforme necessário.
